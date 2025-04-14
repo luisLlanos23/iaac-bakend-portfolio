@@ -30,6 +30,10 @@ env_vars = {
   DATABASE_SCHEMA   = "public"
   RUN_MIGRATIONS    = "true"
   SECRET_TOKEN      = "12345"
+  MONGODB_DB        = "test"
+  MAILER_EMAIL      = ""
+  MAILER_SECRET_KEY = ""
+  MAILER_SERVICE    = ""
 }
 ```
 __Note:__

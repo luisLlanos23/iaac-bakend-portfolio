@@ -44,7 +44,7 @@ module "hexagonal_template" {
     module.postgresql_database,
     module.mongo_database
   ]
-  env_vars   = var.env_vars
+  env_vars = var.env_vars
 }
 
 module "nesjs_template" {
