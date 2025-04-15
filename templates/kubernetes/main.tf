@@ -7,8 +7,6 @@ terraform {
   }
 }
 
-
-
 module "environment" {
   source = "./environment"
   providers = {
@@ -49,6 +47,15 @@ module "hexagonal_template" {
 
 module "nesjs_template" {
   source = "git::https://github.com/luisLlanos23/nestjs-template.git//manifests/deployment"
+  providers = {
+    kubernetes = kubernetes
+  }
+  depends_on = [module.environment, module.postgresql_database]
+  env_vars   = var.env_vars
+}
+
+module "vanilla_server_template" {
+  source = "git::https://github.com/luisLlanos23/vanilla-rest-server-template.git//manifests/deployment"
   providers = {
     kubernetes = kubernetes
   }

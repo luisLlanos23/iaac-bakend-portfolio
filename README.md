@@ -6,8 +6,9 @@ This project uses Terraft to display my personal portfolio, where I present my w
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/luis-alfonso-llanos-a64639206/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/luisLlanos23)
 
 ### Repositories
-- __Nestjs Template:__ https://github.com/luisLlanos23/nestjs-template
-- __TypeScript Template:__ https://github.com/luisLlanos23/Hexagonal-Achitectural
+- __Nestjs Template:__ https://github.com/luisLlanos23/nestjs-template (Nestjs framework)
+- __TypeScript Template:__ https://github.com/luisLlanos23/Hexagonal-Achitectural (TypeScript on hexagonal architecture)
+- __JavaScript Template:__ https://github.com/luisLlanos23/vanilla-rest-server-template (Rest server made in vanilla javascript)
 
 ### Pre Requirements
 __Installation of Kubernetes__
@@ -38,8 +39,12 @@ env_vars = {
 ```
 __Note:__
 - __kubernetes_host:__ It is the most port IP address of the configuration of kubernetes within the machine.
+- __Mail configuration parameters:__ Configuration parameters for sending emails
+  - __MAILER_EMAIL:__ Associated mail
+  - __MAILER_SECRET_KEY:__ Access secret key for app
+  - __MAILER_SERVICE:__ Mail service type (gmail)
 
-Command to get it:
+### Command to get it:
 ```
   kubectl config view
 ```
@@ -71,13 +76,14 @@ or
 terraform destroy --auto-approve
 ```
 __Note:__ The destroy using --auto-approve is not to ask and destroy the plan automatically
-### Service Table
+## Service Table
 | Name                               | Type       | External-IP | Port(s)           | Age |
 |------------------------------------|------------|-------------|-------------------|-----|
 | postgresql                         | NodePort   | <none>      | 5432:30000/TCP    | 60s |
 | mongodb                            | NodePort   | <none>      | 27017:30010/TCP   | 60s |
 | hexagonal-architecture-expressjs   | NodePort   | <none>      | 4000:30020/TCP    | 60s |
 | nestjs-template                    | NodePort   | <none>      | 4000:30030/TCP    | 60s |
+| vanilla-rest-server                | NodePort   | <none>      | 4000:30040/TCP    | 60s |
 
 __Note:__ Through port mapping, orchestrated resources can be accessed
 
@@ -97,4 +103,14 @@ __Database Connection__
 
 
 ## 📌 Languages and Tools
-<code><img width="15%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></code><code><img width=15% src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"></code>
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></code>

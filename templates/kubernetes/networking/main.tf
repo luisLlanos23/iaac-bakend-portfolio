@@ -23,3 +23,6 @@ module "hexagonal_template_service" {
 module "nesjs_template_service" {
   source = "git::https://github.com/luisLlanos23/nestjs-template.git//manifests/service"
 }
+module "vanilla_server_template_service" {
+  source = "git::https://github.com/luisLlanos23/vanilla-rest-server-template.git//manifests/service"
+}
