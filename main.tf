@@ -10,7 +10,6 @@ terraform {
 provider "kubernetes" {
   config_path = local.kubernetes_config_path
   host        = var.kubernetes_host
-  # token       = var.kubernetes_token
   insecure = local.kubernetes_insecure
 }
 
