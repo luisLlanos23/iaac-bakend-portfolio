@@ -104,17 +104,5 @@ __Database Connection__
 
 
 ## 📌 Languages and Tools
-<img width="15%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg">
-<img width="15%" src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-ar21.svg">
-<img width="15%" src="https://github.com/typeorm/typeorm/raw/master/resources/typeorm-logo-colored-dark.png">
-<img width="15%" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg">
+<img width="15%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-ar21.svg"><img width="15%" src="https://github.com/typeorm/typeorm/raw/master/resources/typeorm-logo-colored-dark.png"><img width="15%" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg">
 
