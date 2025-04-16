@@ -63,6 +63,14 @@ module "vanilla_server_template" {
   env_vars   = var.env_vars
 }
 
+module "serverless_app_template" {
+  source = "git::https://github.com/luisLlanos23/serverless-app-template.git//manifests/deployment"
+  providers = {
+    kubernetes = kubernetes
+  }
+  depends_on = [module.environment]
+}
+
 module "networking" {
   source = "./networking"
   providers = {

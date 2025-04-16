@@ -9,6 +9,7 @@ This project uses Terraft to display my personal portfolio, where I present my w
 - __Nestjs Template:__ https://github.com/luisLlanos23/nestjs-template (Nestjs framework)
 - __TypeScript Template:__ https://github.com/luisLlanos23/Hexagonal-Achitectural (TypeScript on hexagonal architecture)
 - __JavaScript Template:__ https://github.com/luisLlanos23/vanilla-rest-server-template (Rest server made in vanilla javascript)
+- __Serverless App Template:__ https://github.com/luisLlanos23/serverless-app-template (Serverless application template made in Python)
 
 ### Pre Requirements
 __Installation of Kubernetes__
@@ -35,6 +36,9 @@ env_vars = {
   MAILER_EMAIL      = ""
   MAILER_SECRET_KEY = ""
   MAILER_SERVICE    = ""
+  AWS_REGION        = ""
+  AWS_ACCESS_KEY_ID = ""
+  AWS_ACCESS_KEY_ID = ""
 }
 ```
 __Note:__
@@ -43,6 +47,14 @@ __Note:__
   - __MAILER_EMAIL:__ Associated mail
   - __MAILER_SECRET_KEY:__ Access secret key for app
   - __MAILER_SERVICE:__ Mail service type (gmail)
+- __AWS Access Config:__
+    - __AWS_ACCESS_KEY_ID:__ Access key used with the AWS SDK to connect to AWS services (It is optional to connect to AWS resources.).
+    - __AWS_SECRET_KEY_ID:__ AWS secret access key (It is optional to connect to AWS resources.).
+    - __AWS_REGION:__ Allows you to access AWS services that are in a specific geographic location
+      - __us-east-1__
+      - __us-east-2__
+      - __us-west-1__
+      - __us-west-2__
 
 ### Command to get it:
 ```
@@ -84,6 +96,7 @@ __Note:__ The destroy using --auto-approve is not to ask and destroy the plan au
 | hexagonal-architecture-expressjs   | NodePort   | <none>      | 4000:30020/TCP    | 60s |
 | nestjs-template                    | NodePort   | <none>      | 4000:30030/TCP    | 60s |
 | vanilla-rest-server                | NodePort   | <none>      | 4000:30040/TCP    | 60s |
+| serverless-app-template            | NodePort   | <none>      | 4000:30050/TCP    | 60s |
 
 __Note:__ Through port mapping, orchestrated resources can be accessed
 
@@ -104,5 +117,9 @@ __Database Connection__
 
 
 ## 📌 Languages and Tools
-<img width="15%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"><img width="15%" src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-ar21.svg"><img width="15%" src="https://github.com/typeorm/typeorm/raw/master/resources/typeorm-logo-colored-dark.png"><img width="15%" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg">
+
+<code><img width="15%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/serverless/serverless-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"></code><code><img width="15%" src="https://www.vectorlogo.zone/logos/amazon_awslambda/amazon_awslambda-ar21.svg"></code><code><img width="15%" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg"></code><code><img width="15%" src="https://github.com/typeorm/typeorm/raw/master/resources/typeorm-logo-colored-dark.png"></code>
+
+
+
 

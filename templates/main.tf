@@ -14,6 +14,5 @@ module "name" {
     kubernetes = kubernetes
   }
   environment = var.environment
-  # deploy_type = var.deploy_type
   env_vars = var.env_vars
 }

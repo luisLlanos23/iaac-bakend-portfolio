@@ -25,7 +25,13 @@ module "nestjs_temaplate_config_map" {
   source   = "git::https://github.com/luisLlanos23/nestjs-template.git//manifests/configmap"
   env_vars = var.env_vars
 }
+
 module "vanilla_server_temaplate_config_map" {
   source   = "git::https://github.com/luisLlanos23/vanilla-rest-server-template.git//manifests/configmap"
+  env_vars = var.env_vars
+}
+
+module "serverless_app_temaplate_config_map" {
+  source   = "git::https://github.com/luisLlanos23/serverless-app-template.git//manifests/configmap"
   env_vars = var.env_vars
 }
